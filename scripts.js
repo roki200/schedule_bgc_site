@@ -13,6 +13,11 @@ document.getElementById('copyButton').addEventListener('click', function () {
 });
 
 
+<script>
+    document.getElementById('closeStatus').addEventListener('click', function() {
+        document.getElementById('botStatus').style.display = 'none';
+    });
+</script>
 
 // Функция для проверки видимости элемента
 function isElementInViewport(el) {
